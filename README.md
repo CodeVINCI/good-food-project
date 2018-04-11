@@ -5,3 +5,10 @@
 2. The Quality of food must be assured irrespective of whether the intitution is IIT,NIT,Govt. Funded university, Private college.
 
 3. The Regulatory body must do licensing and delicensing of the company having tenders to cook food in the country.
+
+
+#Our idea
+
+Create a complaint forum for students and parents of India.
+
+Create a platform that can act as signature collecting platform in support of any complain or requested changes in mess regulatory system of India.
