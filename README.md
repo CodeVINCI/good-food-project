@@ -6,6 +6,7 @@
 
 3. The Regulatory body must do licensing and delicensing of the company having tenders to cook food in the country.
 
+4. Regular assessments of foods by authorities to ensure the quality is maintained.
 
 #Our idea
 
