@@ -17,5 +17,5 @@ Create a platform that can act as signature collecting platform in support of an
 
 #CITATIONS OF BAD QUALITY MESS FOOD IN MEDIA
 
-<a href="https://www.indiatoday.in/food-drink/food/story/indian-railways-unhygienic-food-safety-government-hostel-mess-pg-tiffin-service-street-vendors-hospitals-lifefd-1026418-2017-07-26" target="_blank">5 places in India where the food is even worse than Indian Railways</a>
+<a href="https://www.indiatoday.in/food-drink/food/story/indian-railways-unhygienic-food-safety-government-hostel-mess-pg-tiffin-service-street-vendors-hospitals-lifefd-1026418-2017-07-26" target="_blank">5 places in India where the food is even worse than Indian Railways</a><br/>
 <a href="https://www.storypick.com/mess-food-nightmare/">Indian mess are mess</a>
