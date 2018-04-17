@@ -12,3 +12,8 @@
 Create a complaint forum for students and parents of India.
 
 Create a platform that can act as signature collecting platform in support of any complain or requested changes in mess regulatory system of India.
+
+
+#CITATIONS OF BAD QUALITY MESS FOOD IN MEDIA
+
+<a href="<a href="https://www.indiatoday.in/food-drink/food/story/indian-railways-unhygienic-food-safety-government-hostel-mess-pg-tiffin-service-street-vendors-hospitals-lifefd-1026418-2017-07-26">5 places in India where the food is even worse than Indian Railways</a>
