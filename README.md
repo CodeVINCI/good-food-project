@@ -67,7 +67,7 @@ Like any open source project the Goal of this project will remain a goal until y
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md]() file for details
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/CodeVINCI/good-food-project/blob/master/LICENSE) file for details
 
 ## Acknowledgments
 
