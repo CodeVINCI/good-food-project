@@ -1,6 +1,6 @@
 [all]
-files = **.py, **.js, **.sh
-ignore = .git/**, **/__pycache__/**, gci/client.py, */migrations/**, private/*
+files = **.py
+ignore = .git/**, **/__pycache__/**, **/migrations/**
 max_line_length = 80
 use_spaces = True
 preferred_quotation = '
@@ -15,12 +15,12 @@ files = **.py
 language = Python
 
 [all.python.default]
-ignore += */models.py
+ignore += **/models.py
 bears = PEP8Bear, PycodestyleBear, PyFlakesBear, QuotesBear
 default_actions = *: ApplyPatchAction
 
 [all.python.models]
-files = */models.py
+files = **/models.py
 bears = LineLengthBear, PycodestyleBear, PyFlakesBear, QuotesBear
 max_line_length = 120
 
@@ -31,10 +31,9 @@ bears = InvalidLinkBear
 bears = HTMLLintBear
 files = **.html
 htmllint_ignore = optional_tag, concerns_separation
-ignore = public/**
+
 
 [jinja]
 bears = Jinja2Bear
 files = **.html
 default_actions = *: ApplyPatchAction
-ignore = public/**

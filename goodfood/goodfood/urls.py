@@ -15,9 +15,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import include, re_path
+from complain.views import complain_list
 
 
 urlpatterns = [
+    re_path('^$', complain_list, name='complain_list'),
     re_path('admin/', admin.site.urls),
     re_path(r'^complain/', include('complain.urls')),
 ]
