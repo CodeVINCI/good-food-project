@@ -1,28 +1,26 @@
-<!DOCTYPE html>
-<html>
-<body>
-<head>
-<meta charset="utf-8">
+{% extends "base.html" %}
+{% block title %}
 <title>Complain Form</title>
-</head>
-<h1>Submit your complain</h1>
+{% endblock %}
+{% load material_form %}
+{% block content %}
 <div class="container">
-	<form method="post">
-		{% csrf_token %}
-		{{ form.as_ul }}
-		<button type = "submit">Submit</button>
-	</form>
+  <h2>Submit your complain</h2>
+  <form method="POST">
+    {% csrf_token %}
+    {% form form=form %}{% endform %}
+    <button type="submit" name="_submit" class="btn">Submit</button>
+  </form>
 </div>
 <ul>
-    {% for message in messages %}
-    <li class="{{ message.tags }}">
-        {% if 'safe' in message.tags %}
-            {{ message|safe }}
-        {% else %}
-            {{ message }}
-        {% endif %}{# if 'safe' in message.tags #}
-    </li>
-    {% endfor %}{# for message in messages #}
+  {% for message in messages %}
+  <li class="{{ message.tags }}">
+    {% if 'safe' in message.tags %}
+    {{ message|safe }}
+    {% else %}
+    {{ message }}
+    {% endif %}{# if 'safe' in message.tags #}
+  </li>
+  {% endfor %}{# for message in messages #}
 </ul>
-</body>
-</html>
+{% endblock %}
