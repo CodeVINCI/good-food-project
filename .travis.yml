@@ -1,0 +1,11 @@
+language: python
+python:
+  - "3.6"
+install: 
+  - pip install -r requirements.txt
+  - pip install coala-bears
+before_script:
+  - python manage.py migrate
+script:
+  - coala --non-interactive -V
+sudo: false
