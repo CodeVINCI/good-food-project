@@ -23,7 +23,7 @@
 
 ## Deployment
 
-* Yet to add 
+* Yet to add
 
 ## Built With
 
@@ -60,6 +60,8 @@ Like any open source project the Goal of this project will remain a goal until y
 
 * [5 places in India where the food is even worse than Indian Railways](https://www.indiatoday.in/food-drink/food/story/indian-railways-unhygienic-food-safety-government-hostel-mess-pg-tiffin-service-street-vendors-hospitals-lifefd-1026418-2017-07-26)
 * [Indian mess are mess](https://www.storypick.com/mess-food-nightmare/)
+* [Happens in every College Mess](http://www.thehindu.com/news/cities/chennai/iitm-students-protest-poor-quality-of-canteens/article5101646.ece)
+* [Some Realtime Survey stats on Mess food](https://www.slideshare.net/udit002/mess-food-report)
 
 ## Author
 
@@ -71,4 +73,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](https://gi
 
 ## Acknowledgments
 
-* Yet to Add 
+* Yet to Add
