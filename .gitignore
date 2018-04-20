@@ -3,3 +3,4 @@
 **.orig
 goodfood/goodfood/settings.ini
 db.sqlite3
+goodfood/static/*
