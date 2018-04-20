@@ -2,7 +2,8 @@ language: python
 python:
   - "3.6"
   - "3.5"
-install: 
+install:
+  - cd goodfood
   - pip install -r requirements.txt
   - pip install coala-bears
 before_script:
