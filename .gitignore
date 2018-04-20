@@ -1,3 +1,4 @@
 *.pyc
 **/__pycache__/**
 **.orig
+goodfood/goodfood/settings.ini
