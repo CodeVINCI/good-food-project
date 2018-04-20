@@ -2,3 +2,4 @@
 **/__pycache__/**
 **.orig
 goodfood/goodfood/settings.ini
+db.sqlite3

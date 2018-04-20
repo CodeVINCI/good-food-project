@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block title %}
+<title>List of all the submitted complaints</title>
+{% endblock %}
+{% block content %}
+<h1>List of all the submitted complaints</h1>
+<hr>
+{% for complain in complaints %}
+<div class="container">
+  <div class="row">
+    <div class="col-sm-6 col-md-4">
+      <div class="thumbnail">
+        <div class="caption">
+          <p>Submitted by: {{ complain.name }}</p>
+          <p>Name of the University: {{ complain.university_name }}</p>
+          <p>University Address: {{ complain.university_address }}</p>
+          <p>Quality of Food: {{ complain.food_quality }}</p>
+          <p>Why it is bad: {{ complain.further_complain }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<hr>
+{% endfor %}{# for complain in complaints #}
+{% endblock %}

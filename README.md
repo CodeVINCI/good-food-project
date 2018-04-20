@@ -47,7 +47,7 @@ Like any open source project the Goal of this project will remain a goal until y
 
 * source vgood-food-project/bin/activate
 
-* cd good-food-project
+* cd good-food-project/goodfood
 
 * pip install -r requirements.txt
 
