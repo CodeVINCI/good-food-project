@@ -37,6 +37,7 @@ Like any open source project the Goal of this project will remain a goal until y
 
 * Python
 * Django
+* Postgresql
 
 ### Setup
 
@@ -51,10 +52,23 @@ Like any open source project the Goal of this project will remain a goal until y
 
 * pip install -r requirements.txt
 
+* create a file settings.ini in `good-food-project/goodfood/goodfood` and put the following:
+
+    SECRET_KEY=3izb^ryglj(bvrjb2_y1fZvcnbky#358_l6-nn#i8fkug4mmz!
+    DEBUG=True
+    DB_NAME=YOUR_DATABASE_NAME
+    DB_USER=YOUR_DATABASE_USERNAME
+    DB_PASSWORD=YOUR_DATABASE_PASSWORD
+    DB_HOST=127.0.0.1
+
 * python manage.py migrate
 
 * python manage.py runserver
+
+* Go to http://127.0.0.1:8000/complain/ and submit your complaints!
 ```
+
+If you're having problem while setup see [1](https://www.digitalocean.com/community/tutorials/how-to-use-postgresql-with-your-django-application-on-ubuntu-14-04) and [2](https://simpleisbetterthancomplex.com/2015/11/26/package-of-the-week-python-decouple.html).
 
 ## CITATIONS OF BAD QUALITY MESS FOOD IN MEDIA
 
