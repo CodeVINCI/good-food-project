@@ -70,6 +70,22 @@ Like any open source project the Goal of this project will remain a goal until y
 
 If you're having problem while setup see [1](https://www.digitalocean.com/community/tutorials/how-to-use-postgresql-with-your-django-application-on-ubuntu-14-04) and [2](https://simpleisbetterthancomplex.com/2015/11/26/package-of-the-week-python-decouple.html).
 
+### Creating a PR
+
+Similar code style throughout the whole project can be helpful for future contributors to understand the code and the reviewers on the pull requests.
+That's why are using coala to lint the code before pushing any changes.
+
+After you have made all the changes and you're ready to push, just run coala on the project:
+
+```
+* Make sure you're in the dir `good-food-project/goodfood`
+* Run coala:  $coala
+```
+
+That's it, that is what you've to do to lint your code, it would automatically apply the required changes, but in some cases, you've to do it manually, and if you don't want to make that change just enter `0` and coala would do nothing.
+
+If you're still having any problem on using coala, please contact us Gitter, or follow the [coala Guidelines](https://coala.io/#/home)
+
 ## CITATIONS OF BAD QUALITY MESS FOOD IN MEDIA
 
 * [5 places in India where the food is even worse than Indian Railways](https://www.indiatoday.in/food-drink/food/story/indian-railways-unhygienic-food-safety-government-hostel-mess-pg-tiffin-service-street-vendors-hospitals-lifefd-1026418-2017-07-26)
